@@ -28,8 +28,8 @@ spring:
       host: 192.168.1.10
       port: 27017
       database: qcsz_mongo
-#      username:
-#      password:
+      username: qcsz
+      password: AQAOAyaN9Q3Z7VNBAICpKAoX/Rvfca5wRC3Id6bHhoV/C5u0riYEB83/R1wK2JqMqPhMt5eCxe4mlG+yAR5hqXwp+td5oiaG3zLXhd+ZJWkrMFR2+7OYIA8MZtvnPkKzvT/TfCOvHdd/tJk7U/huPoZ3EzOAhfMNvpH+uaazZ3YIQxzufckx7J/PfgDZqonWGIr5j0yxwqu6zbLqsDlyPdICVyeaxb05kKqUvbzz4KCrX0gf++grdaCYNnY2a4TUBCnGD3qC1aS/7HQz9j+V3ZtCagCc50AUYTXHDeNdR4KYZM6D+ZIqoAa9rJWfCgsjp6LOpfj3VqP1rk8GKmG4HGvrw3u5e2wL+DWRJkXlycDnnDgUwx+fz1Tx0Ruekbkx1dk=
 eureka:
   client:
     service-url:
