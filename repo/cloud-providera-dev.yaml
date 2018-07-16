@@ -3,34 +3,34 @@ server:
 spring:
   zipkin:
     base-url: http://localhost:8777
-  datasource:
-    url: jdbc:mysql://192.168.1.10:3306/qcsz_mysql?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
-    username: qcsz
-    password: {cipher}AQB63S5xBp1w6Ryz5Sc4YdbsBqUsu0zXKZtCU3BTsgtaChJxOx9/zdq26fgRwAawcLtQzMhxBJHWYTyXaZJ0V6JN2ed/6gfuIvnCVc0oqvcElnrUsbYTKST7lz/4MXek9Hy7KSO2OcWcm3F8QvKY2tQIETAW3UsmxV4rO2WJfU8u1BSxJ3etz/uJkXddBSkyLTV7Z9pTjituELDQvetgpOL2LgE8e7e7XwelOOAIB2GLCdTw3P9WWWulAsLyaE3n7KGdpDePqsQ6etYajFUGBrg63lPENjiUxNiKdXxrsrmpEyYchThbWO9EfK2h4h3RmHTekuNcd0//WhnUhi0fj5bTxGsnGOUIonA9GgbWbzmPpqBu2uhgMg8SmRc3h3Z8wQw=
-    driver-class-name: com.mysql.jdbc.Driver
-    validation-query: SELECT 1
-    test-on-borrow: true
-    max-active: 100
-    max-idle: 8
-    min-idle: 8
-    initial-size: 10
-    max-wait: 10000
-  jpa:
-    database: MYSQL
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialet: org.hibernate.dialect.MySQL5Dialect
-  data:
-    mongodb:
-      host: 192.168.1.10
-      port: 27017
-      database: qcsz_mongo
-#      username:
-#      password:
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+#  datasource:
+#    url: jdbc:mysql://192.168.1.10:3306/qcsz_mysql?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+#    username: qcsz
+#    password: {cipher}AQB63S5xBp1w6Ryz5Sc4YdbsBqUsu0zXKZtCU3BTsgtaChJxOx9/zdq26fgRwAawcLtQzMhxBJHWYTyXaZJ0V6JN2ed/6gfuIvnCVc0oqvcElnrUsbYTKST7lz/4MXek9Hy7KSO2OcWcm3F8QvKY2tQIETAW3UsmxV4rO2WJfU8u1BSxJ3etz/uJkXddBSkyLTV7Z9pTjituELDQvetgpOL2LgE8e7e7XwelOOAIB2GLCdTw3P9WWWulAsLyaE3n7KGdpDePqsQ6etYajFUGBrg63lPENjiUxNiKdXxrsrmpEyYchThbWO9EfK2h4h3RmHTekuNcd0//WhnUhi0fj5bTxGsnGOUIonA9GgbWbzmPpqBu2uhgMg8SmRc3h3Z8wQw=
+#    driver-class-name: com.mysql.jdbc.Driver
+#    validation-query: SELECT 1
+#    test-on-borrow: true
+#    max-active: 100
+#    max-idle: 8
+#    min-idle: 8
+#    initial-size: 10
+#    max-wait: 10000
+#  jpa:
+#    database: MYSQL
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialet: org.hibernate.dialect.MySQL5Dialect
+#  data:
+#    mongodb:
+#      host: 192.168.1.10
+#      port: 27017
+#      database: qcsz_mongo
+##      username:
+##      password:
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
