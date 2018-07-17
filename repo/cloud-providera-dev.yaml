@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://192.168.1.10:3306/qcsz_mysql?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     username: qcsz
-    password: {cipher}AQB63S5xBp1w6Ryz5Sc4YdbsBqUsu0zXKZtCU3BTsgtaChJxOx9/zdq26fgRwAawcLtQzMhxBJHWYTyXaZJ0V6JN2ed/6gfuIvnCVc0oqvcElnrUsbYTKST7lz/4MXek9Hy7KSO2OcWcm3F8QvKY2tQIETAW3UsmxV4rO2WJfU8u1BSxJ3etz/uJkXddBSkyLTV7Z9pTjituELDQvetgpOL2LgE8e7e7XwelOOAIB2GLCdTw3P9WWWulAsLyaE3n7KGdpDePqsQ6etYajFUGBrg63lPENjiUxNiKdXxrsrmpEyYchThbWO9EfK2h4h3RmHTekuNcd0//WhnUhi0fj5bTxGsnGOUIonA9GgbWbzmPpqBu2uhgMg8SmRc3h3Z8wQw=
+    password: '{cipher}AQB63S5xBp1w6Ryz5Sc4YdbsBqUsu0zXKZtCU3BTsgtaChJxOx9/zdq26fgRwAawcLtQzMhxBJHWYTyXaZJ0V6JN2ed/6gfuIvnCVc0oqvcElnrUsbYTKST7lz/4MXek9Hy7KSO2OcWcm3F8QvKY2tQIETAW3UsmxV4rO2WJfU8u1BSxJ3etz/uJkXddBSkyLTV7Z9pTjituELDQvetgpOL2LgE8e7e7XwelOOAIB2GLCdTw3P9WWWulAsLyaE3n7KGdpDePqsQ6etYajFUGBrg63lPENjiUxNiKdXxrsrmpEyYchThbWO9EfK2h4h3RmHTekuNcd0//WhnUhi0fj5bTxGsnGOUIonA9GgbWbzmPpqBu2uhgMg8SmRc3h3Z8wQw='
     driver-class-name: com.mysql.jdbc.Driver
     validation-query: SELECT 1
     test-on-borrow: true
